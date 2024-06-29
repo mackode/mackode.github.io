@@ -1,0 +1,380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Mackode</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/interface.js"></script>
+</head>
+
+<body>
+
+    <main class="cd-main-content">
+        <div id="particle">
+        </div>
+
+        <div class="noselection" id="overlay">
+            <img class="noselection" src="images/visit.png" alt="Freddy got fingered." />
+            <p><br /></p>
+            <h1 class="noselection" id="text"><a href="mailto:biuro@mackode.pl">
+                    <p>biuro@mackode.pl</p>
+                </a></h1>
+        </div>
+
+        <div class="dock" id="dock">
+            <div class="dock-container">
+                <a class="dock-item js-cd-panel-trigger" href="#" data-panel="main"><span>Home</span><img
+                        src="images/home.png" alt="home" /></a>
+
+                <a class="dock-item js-cd-panel-trigger" href="#" data-panel="contact"><span>Contact</span><img
+                        src="images/email.png" alt="contact" /></a>
+
+                <a class="dock-item js-cd-panel-trigger" href="#" data-panel="portfolio"><span>Portfolio</span><img
+                        src="images/portfolio.png" alt="portfolio" /></a>
+
+                <!-- <a class="dock-item" href="#"><span>Video</span><img src="images/video.png" alt="video" /></a> -->
+
+                <a class="dock-item js-cd-panel-trigger" href="#" data-panel="history"><span>History</span><img
+                        src="images/history.png" alt="history" /></a>
+
+                <!-- <a class="dock-item" href="#"><span>Calendar</span><img src="images/calendar.png" alt="calendar" /></a> -->
+
+                <a class="dock-item js-cd-panel-trigger" href="#" data-panel="links"><span>Links</span><img
+                        src="images/link.png" alt="links" /></a>
+
+                <!-- <a class="dock-item" href="#"><span>RSS</span><img src="images/rss.png" alt="rss" /></a> -->
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="js/app.js"></script>
+    </main>
+
+    <div class="cd-panel cd-panel--from-right js-cd-panel-main">
+        <header class="cd-panel__header">
+            <h1>Main Page</h1>
+            <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+        </header>
+
+        <div class="cd-panel__container">
+            <div class="cd-panel__content">
+                <h2>Summary</h2>
+
+                <p>Founded in 2012, Mackode is a leading Apple ecosystem application development studio comprised with
+                    highly skilled professionals with expertise in mobile strategy.
+                </p>
+
+                <h2>Services</h2>
+
+                <div class="services" id="services">
+                    <table class="services-container">
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot-first"><img src="images/mobile.png" alt="mobile" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Mobile Applications</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/streaming.png" alt="streaming" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Video Streaming and Content Protection</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/security.png" alt="security" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Security Audits</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/smart.png" alt="smart" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Smart Environments and IoT</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/voip.png" alt="voip" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>VoIP and Communication</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/remote.png" alt="remote" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Remote Desktops and Management</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/multi.png" alt="multi" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Multi-platform Solutions</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="rows-2">
+                            <td>
+                                <div class="dot"><img src="images/backend.png" alt="backend" /></div>
+                            </td>
+                            <td>
+                                <p class="services-item">
+                                    <span>Backend Integrations and APIs</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h2>Technologies</h2>
+
+                <p>Our favourite technologies and tools:</p>
+                <ul class="technologies">
+                    <li><img src="images/logos/git.png"></li>
+                    <li><img src="images/logos/github-mark.png"></li>
+                    <li><img src="images/logos/github.png"></li>
+                    <li><img src="images/logos/apple.png"></li>
+                    <li><img src="images/logos/xcode.png"></li>
+                    <li><img src="images/logos/objective-c.png"></li>
+                    <li><img src="images/logos/swift.png"></li>
+                    <li><img src="images/logos/jenkins.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cd-panel cd-panel--from-right js-cd-panel-contact">
+        <header class="cd-panel__header">
+            <h1>Contact</h1>
+            <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+        </header>
+
+        <div class="cd-panel__container">
+            <div class="cd-panel__content">
+                <form name="contactForm" action="mailto:biuro@mackode.pl" onsubmit="return validateForm()"
+                    method="post">
+                    <table class="form-style">
+                        <tr>
+                            <td>
+                                <label>
+                                    Your name <span class="required">*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" class="long" />
+                                <span class="error" id="errorname"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Your email address <span class="required">*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" class="long" />
+                                <span class="error" id="erroremail"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Message <span class="required">*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <textarea name="message" class="long field-textarea"></textarea>
+                                <span class="error" id="errormsg"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Send">
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+                <ul class="contacts">
+                    <li><img src="images/contact/facebook.png"></li>
+                    <li><img src="images/contact/linkedin.png"></li>
+                    <li><img src="images/contact/skype.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cd-panel cd-panel--from-right js-cd-panel-portfolio">
+        <header class="cd-panel__header">
+            <h1>Portfolio</h1>
+            <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+        </header>
+
+        <div class="cd-panel__container">
+            <div class="cd-panel__content">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="counter">
+                            <i class="fa fa-code fa-2x"></i>
+                            <h2 class="timer count-title count-number" data-to="50" data-speed="2500">50</h2>
+                            <p class="count-text ">Our Customer</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="counter">
+                            <i class="fa fa-coffee fa-2x"></i>
+                            <h2 class="timer count-title count-number" data-to="100" data-speed="2500">100</h2>
+                            <p class="count-text ">Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="counter">
+                            <i class="fa fa-lightbulb-o fa-2x"></i>
+                            <h2 class="timer count-title count-number" data-to="1900" data-speed="2500">1900</h2>
+                            <p class="count-text ">Project Complete</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="counter">
+                            <i class="fa fa-bug fa-2x"></i>
+                            <h2 class="timer count-title count-number" data-to="1570" data-speed="2500">1570</h2>
+                            <p class="count-text ">Coffee With Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cd-panel cd-panel--from-right js-cd-panel-history">
+        <header class="cd-panel__header">
+            <h1>History</h1>
+            <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+        </header>
+
+        <div class="cd-panel__container">
+            <div class="cd-panel__content">
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2022</h2>
+                            <p>First own product on the market</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2020</h2>
+                            <p>Organization change</p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2017</h2>
+                            <p>Enter Video Streaming industry</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>First big customer and cooperation</p>
+                            <p>* Continuous maintenance and development of number of applications</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2012</h2>
+                            <p>The year of company creation</p>
+                            <p>* Multiple iOS application under maintenance</p>
+                            <p>* Maintenance of huge servers and application backends</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cd-panel cd-panel--from-right js-cd-panel-links">
+        <header class="cd-panel__header">
+            <h1>Links</h1>
+            <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+        </header>
+
+        <div class="cd-panel__container">
+            <div class="cd-panel__content">
+                <p>Interesting and useful links:</p>
+                <p>
+                <ul class="links">
+                    <li><a href="https://developer.apple.com/documentation/technologies" target="_blank">Apple
+                            Documentation</a></li>
+                    <li><a href="https://www.swift.org/documentation/" target="_blank">Swift Language</a></li>
+                    <li><a href="https://developer.apple.com/documentation/xcode#Overview" target="_blank">Xcode
+                            Help</a></li>
+                    <li><a href="https://docs.fastlane.tools/" target="_blank">Fastlane</a></li>
+                    <li><a href="https://docs.github.com/en/rest" target="_blank">GitHub</a></li>
+                    <li><a href="https://git-scm.com/doc" target="_blank">git Documentation</a></li>
+                    <li><a href="https://www.jenkins.io/doc/" target="_blank">Jenkins</a></li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#dock').Fisheye({
+                maxWidth: 60,
+                items: 'a',
+                itemsText: 'span',
+                container: '.dock-container',
+                itemWidth: 40,
+                proximity: 80,
+                alignment: 'left',
+                valign: 'bottom',
+                halign: 'center'
+            })
+        });
+    </script>
+
+</body>
+
+</html>
